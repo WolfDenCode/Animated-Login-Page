@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sign-in" id="sign-in">
+            <h1>Welcome Back!</h1>
+            <div class="socials">
+                <div class="socials-element"><i class="fa-brands fa-pinterest"></i></div>
+                <div class="socials-element"><i class="fa-brands fa-youtube"></i></div>
+                <div class="socials-element"><i class="fa-brands fa-twitter"></i></div>
+                <div class="socials-element"><i class="fa-brands fa-instagram"></i></div>
+            </div>
+            <div class="login-form">
+                <div class="login-element">
+                    <i class="fa-solid fa-envelope"></i><input type="email" placeholder="Username / E-mail">
+                </div>
+                <div class="login-element">
+                    <i class="fa-solid fa-lock"></i><input type="password" placeholder="Password">
+                </div>
+                <button class="login-button">Login</button>
+                <h4 id="mobile-sign-up">Don't have an account yet?</h4>
+            </div>
+        </div>
+        <div class="sign-up-holder">
+            <h1 id="holder-h1">Welcome To Our Site!</h1>
+            <h3 id="holder-h3">If you are new here and don't know where to start, just sign up to visit our page!</h3>
+            <button id="sign-up-button">Sign-Up</button>
+        </div>
+        <div class="sign-up hidden" id="sign-up">
+            <h1>Sign-Up!</h1>
+            <div class="login-form">
+                <div class="login-element">
+                    <i class="fa-solid fa-envelope"></i><input type="email" placeholder="Username / E-mail">
+                </div>
+                <div class="login-element">
+                    <i class="fa-solid fa-lock"></i><input type="password" placeholder="Password">
+                </div>
+                <div class="login-element">
+                    <i class="fa-solid fa-lock"></i><input type="password" placeholder="Password Again">
+                </div>
+                <button class="login-button">Sign-Up</button>
+                <h4 id="mobile-sign-in">Already have an account?</h4>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/3b31cb99f3.js" crossorigin="anonymous"></script>
+</body>
+</html>
